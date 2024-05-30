@@ -46,42 +46,42 @@ Before you begin, ensure you have the following installed:
 
 2. **Install server dependencies:**
 
-```bash
-cd server
-npm install
-```
+   ```bash
+   cd server
+   npm install
+   ```
 
 3. **Install client dependencies:**
 
-```bash
-cd ../client
-npm install
-```
+   ```bash
+   cd ../client
+   npm install
+   ```
 
 4. **Set up environment variables:**
 
-Create a **.env** file in the server directory and add the following:
+   Create a **.env** file in the server directory and add the following:
 
-```js
-PORT = 5000;
-MONGO_URI = your_mongo_db_connection_string;
-```
+   ```js
+   PORT = 5000;
+   MONGO_URI = your_mongo_db_connection_string;
+   ```
 
 ## Usage
 
 1. **Start the server:**
 
-```bash
-cd server
-npm start
-```
+   ```bash
+   cd server
+   npm start
+   ```
 
 2. **start the client:**
 
-```bash
-cd client
-npm start
-```
+   ```bash
+   cd client
+   npm start
+   ```
 
 3. **Open the application:**
    Navigate to http://localhost:3000 in your browser.
